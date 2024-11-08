@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração de Treino Ideal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <h1>Configuração do Treino</h1>
+        <form id="userForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" name="altura" required>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" name="peso" required>
+
+            <label for="biotipo">Biotipo:</label>
+            <select id="biotipo" name="biotipo" required>
+                <option value="Ectomorfo">Ectomorfo</option>
+                <option value="Mesamorfo">Mesamorfo</option>
+                <option value="Endomorfo">Endomorfo</option>
+            </select>
+
+            <label for="periodizacao">Periodização:</label>
+            <select id="periodizacao" name="periodizacao" required>
+                <option value="1 dia">1 dia</option>
+                <option value="3 dias">3 dias</option>
+                <option value="5 dias">5 dias</option>
+            </select>
+
+            <label for="tipo">Tipo de Exercício:</label>
+            <select id="tipo" name="tipo" required>
+                <option value="Funcional">Funcional</option>
+                <option value="Maquinário">Maquinário</option>
+                <option value="Peso Livre">Peso Livre</option>
+                <option value="Cardio">Cardio</option>
+                <option value="HIT">HIT</option>
+            </select>
+
+            <label for="frequencia">Frequência:</label>
+            <select id="frequencia" name="frequencia" required>
+                <option value="1-2 vezes por semana">1-2 vezes por semana</option>
+                <option value="3-4 vezes por semana">3-4 vezes por semana</option>
+                <option value="5-6 vezes por semana">5-6 vezes por semana</option>
+            </select>
+
+            <label for="objetivo">Objetivo:</label>
+            <select id="objetivo" name="objetivo" required>
+                <option value="Ganho de Massa Muscular">Ganho de Massa Muscular</option>
+                <option value="Perda de Gordura">Perda de Gordura</option>
+                <option value="Manutenção">Manutenção</option>
+                <option value="Melhora da Performance">Melhora da Performance</option>
+            </select>
+
+            <label for="nivel">Nível:</label>
+            <select id="nivel" name="nivel" required>
+                <option value="Iniciante">Iniciante</option>
+                <option value="Intermediário">Intermediário</option>
+                <option value="Avançado">Avançado</option>
+            </select>
+
+            <label for="saude">Condições de Saúde:</label>
+            <input type="text" id="saude" name="saude">
+
+            <label for="deficiencia">Deficiência:</label>
+            <select id="deficiencia" name="deficiencia">
+                <option value="Nenhuma">Nenhuma</option>
+                <option value="Deficiência Física">Deficiência Física</option>
+                <option value="Deficiência Visual">Deficiência Visual</option>
+                <option value="Deficiência Auditiva">Deficiência Auditiva</option>
+                <option value="Deficiência Intelectual">Deficiência Intelectual</option>
+            </select>
+
+            <button type="submit">Gerar Treino Ideal</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
