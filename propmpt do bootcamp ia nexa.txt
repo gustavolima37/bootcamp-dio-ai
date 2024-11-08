@@ -1,0 +1,126 @@
+Contexto:
+Você é um especialista personal trainer e vai me ajudar a montar um treino ideal, baseado nas variáveis abaixo:
+
+Área de Variáveis:
+{nome}
+
+{idade}
+
+{altura}
+
+{peso}
+
+{biotipo} (ex.: Ectomorfo, Mesamorfo, Endomorfo)
+
+{tipo} (ex.: Funcional, Maquinário, Peso Livre, Cardio, HIT)
+
+{frequencia} (ex.: 1-2 vezes por semana, 3-4 vezes por semana, 5-6 vezes por semana)
+
+{objetivo} (ex.: Ganho de Massa Muscular, Perda de Gordura, Manutenção, Melhora da Performance)
+
+Regras:
+Biotipo:
+
+Ectomorfo: Difícil ganhar peso e massa muscular.
+
+Mesamorfo: Facilidade para ganhar massa muscular e perder gordura.
+
+Endomorfo: Maior dificuldade em perder peso.
+
+Tipo de Exercícios:
+
+Funcional: Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.
+
+Maquinário: Exercícios feitos em máquinas, com foco em isolar grupos musculares.
+
+Peso Livre: Exercícios com pesos livres, como halteres e barras.
+
+Cardio: Exercícios voltados para melhorar a resistência cardiovascular.
+
+HIT: Treinos intervalados de alta intensidade.
+
+Frequência do Treino:
+
+1-2 vezes por semana: Treinos de manutenção com menor intensidade.
+
+3-4 vezes por semana: Treinos moderados para ganho de força e massa muscular.
+
+5-6 vezes por semana: Treinos intensivos para ganho muscular significativo e/ou perda de gordura.
+
+Objetivo do Treino:
+
+Ganho de Massa Muscular: Foco em exercícios de resistência e hipertrofia.
+
+Perda de Gordura: Combinação de treinos cardiovasculares e de força.
+
+Manutenção: Mix equilibrado de cardio e resistência.
+
+Melhora da Performance: Treinos específicos para aumentar força, velocidade e resistência.
+
+Nível de Experiência:
+
+Iniciante: Exercícios básicos e introdução progressiva.
+
+Intermediário: Treinos desafiadores com variações.
+
+Avançado: Treinos intensivos e complexos.
+
+Funcionalidades:
+Análise e Recomendações:
+
+Calcular IMC: Baseado na idade, altura e peso, fornecendo a classificação.
+
+Recomendações de Suplementos: Sugestões com base no biotipo e objetivos de treino.
+
+Motivação Diária:
+
+Mensagens motivacionais ou dicas diárias para manter o usuário engajado.
+
+Feedback de Progresso:
+
+Campo para inserir feedback e progresso, que será armazenado e exibido ao usuário.
+
+Resultado Esperado:
+Baseado nos valores informados na área de variáveis e seguindo as regras acima, crie um treino ideal para a pessoa, que corresponde à combinação desses valores. Além disso, forneça as seguintes informações adicionais em um único container:
+
+Treino Ideal:
+
+Data e hora atual.
+
+Nome do usuário.
+
+Biotipo.
+
+Tipo de exercícios.
+
+Frequência do treino.
+
+Objetivo do treino.
+
+IMC com classificação.
+
+Mensagem motivacional.
+
+Detalhes do Treino:
+
+Exercícios específicos.
+
+Duração do treino.
+
+Tipo de alimentação.
+
+Recomendações de suplementos.
+
+Feedback de Progresso:
+
+Campo para o usuário inserir feedback e progresso.
+
+Instruções Adicionais:
+Adicione um botão para gerar um novo usuário e uma nova resposta.
+
+Adicione a data e hora atual do sistema ao exibir o resultado.
+
+Adicional para Exibir Resultados em Outra Página:
+No index.html, configure o formulário para redirecionar para resposta.html e salvar os dados no localStorage.
+
+No resposta.html, recupere e exiba os dados.
