@@ -1,0 +1,80 @@
+-LLMs são Large Language Models, ou seja, Grandes Modelos de Linguagem. São modelos de inteligência artificial treinados em vastos conjuntos de dados textuais para entender, gerar e processar linguagem natural de maneira sofisticada.
+
+Esses modelos são usados em várias aplicações, como chatbots, tradutores automáticos, assistentes virtuais e ferramentas de análise de texto. Eles conseguem completar tarefas complexas de linguagem graças à quantidade massiva de dados e técnicas avançadas de machine learning empregadas durante o seu treinamento.
+---------------------------------------------------------
+
+ias de conversação (chatBot)
+
+-ChatGPT
+-Bing (Microsoft)
+-Bard
+
+ias de criação imagens
+
+-Bing image Creator
+-Leonardo AI
+-Midjourney
+
+ias de fala e avatares virtuais (pago)
+
+-ElevenLabs (até 10min o som gratis por mês)
+-D-ID (ate 5min gratis por mês)
+-HeyGen (ate 1min de video gratis e não renova) muito realista, porem caro.
+
+ias de criação de slides
+
+-gamma app
+
+"conceito de speech-to-text, que é a conversão de fala em texto e também de text-to-speech, que é a conversão de texto em fala."
+
+PLN = Processamento de Linguagem natural, é uma vertente da inteligência artificial (IA) que ajuda computadores a entender, interpretar e manipular a linguagem humana.
+
+Niveis de processamento:
+- Morphologia
+- Sintax
+- Semantica
+- Pragmática.
+
+Componentes de um prompt = contexto, restrições  requisitos, exemplos, formato de resposta, escopo e limites, pergunta ou instrução, tons e estilos.
+
+Solicitações de poucos disparos x solicitação de disparo zero.
+
+-Solicitação de poucos disparos (few-shot prompting): a solicitação de poucos disparos envolve fornecer ao modelo alguns exemplos de entrada e saída para ajuda-lo a entender a tarefa.
+
+-Solicitação de disparo zero (zero-shot prompting): a solicitação e disparo zero não fornece nenhum exemplo ao modelo. Em vez disso, o modelo é solicitado a realizar a tarefa com base apenas na descrição da tarefa. 
+
+Às vezes, é util fornecer alguns exemplos para ajudar as LLMs(IA) a ajustar melhor suas respostas de acordo com suas expectativas, isso é conhecido como -solicitação de algumas tomadas ou aprendizado contextual-, onde um exemplo de entrada é pareado com a saída desejada.
+----------------------------------------------------------
+
+Principais pontos da engenharia de prompts:
+
+-Compreensão do Contexto
+Seja Claro e Específico: Quanto mais detalhado e direto for o seu prompt, melhor será a resposta gerada.
+
+Contexto Relevante: Inclua contexto suficiente para guiar a IA, mas evite excesso de detalhes que possam confundir.
+
+Estrutura do Prompt
+Uso de Exemplos: Fornecer exemplos específicos pode ajudar a IA a entender exatamente o que você espera.
+
+Perguntas Diretas: Perguntas diretas e bem formuladas tendem a gerar respostas mais precisas.
+
+Formato: Use listas, bullet points e estrutura clara para facilitar a compreensão.
+
+Ajustes e Iterações
+Refinamento Contínuo: Teste e ajuste o prompt várias vezes para obter os melhores resultados.
+
+Feedback e Correções: Utilize as respostas para ajustar o prompt, fornecendo feedback e correções quando necessário.
+
+Estilo e Tom
+Tom e Linguagem: Defina o tom e a linguagem que você deseja, seja formal, casual, técnico ou amigável.
+
+Instruções Explícitas: Se você quer uma resposta em um formato específico (como um resumo, código ou texto longo), diga isso claramente.
+
+Uso de Ferramentas
+Ferramentas Específicas: Saiba como e quando usar ferramentas específicas (como pesquisa na web ou geração de imagens) para enriquecer o resultado.
+----------------------------------------------------------
+materiais do curso.
+
+https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1
+----------------------------------------------------------
+
